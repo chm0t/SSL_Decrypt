@@ -17,6 +17,7 @@ extends:
 labels:
   collection:
     - myCollection
+    - cmotley
 
 # ---------------------------------------------------------------------
 # end of preamble section
