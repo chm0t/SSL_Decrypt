@@ -1,7 +1,4 @@
-<entry name="{{ vsys }}">
-    <profiles>
-        <decryption>
-           <entry name="block-untrusted-issuers">
+<entry name="block-untrusted-issuers">
             <ssl-forward-proxy>
             <block-expired-certificate>yes</block-expired-certificate>
             <block-untrusted-issuer>yes</block-untrusted-issuer>
@@ -11,6 +8,3 @@
             <block-unsupported-cipher>yes</block-unsupported-cipher>
             </ssl-forward-proxy>
            </entry>
-        </decryption>
-    </profiles>
-</entry>
