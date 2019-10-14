@@ -37,9 +37,6 @@
                   <source-user>
                     <member>any</member>
                   </source-user>
-                  <tag>
-                    <member>Dangerous</member>
-                  </tag>
                   <action>decrypt</action>
                   <profile>block-untrusted-issuers</profile>
                   <description>This rule uses the basic-ssl-decrypt-certificate to apply decryption to risky url categories.  For testing purposes, a custom category for eicar has also been added to test proper ssl decryption.  Note that an anti-virus profile to block viruses must also exist to block the eicar download.</description>
