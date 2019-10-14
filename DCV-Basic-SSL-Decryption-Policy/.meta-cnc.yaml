@@ -51,13 +51,13 @@ snippets:
     xpath: /config/shared/ssl-decrypt/forward-trust-certificate
     file: forward_trust.xml
   - name: eicar-url
-    xpath: /config/devices/entry[@name='localhost.localdomain']/vsys
+    xpath: /config/devices/entry[@name='localhost.localdomain']/vsys/entry[@name='vsys1']/profiles/custom-url-category
     file: eicar_url.xml
   - name: decrypt-profile
-    xpath: /config/devices/entry[@name='localhost.localdomain']/vsys
+    xpath: /config/devices/entry[@name='localhost.localdomain']/vsys/entry[@name='vsys1']/profiles/decrypt
     file: decrypt_profile.xml
   - name: decrypt_rule
-    xpath:  /config/devices/entry[@name='localhost.localdomain']/vsys
+    xpath:  /config/devices/entry[@name='localhost.localdomain']/vsys/entry[@name='vsys1']/rulebase/decryption/rules
     file: decrypt_rule.xml
 # ---------------------------------------------------------------------
 # end of snippets section
