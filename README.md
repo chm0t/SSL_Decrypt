@@ -1,5 +1,5 @@
 # DCV-Basic-SSL-Decrypt-Policy
-This skillet creates a basic ssl decryption policy that installs a self-signed certificate and a decryption policy that decrypts high-risk categories and the eicar antivirus test site.
+This skillet creates a basic ssl decryption policy that installs a self-signed certificate and a decryption policy that decrypts high-risk categories and the eicar antivirus test site. Configured for version 8.1 and lower (removed High-Risk)
 
 This skillet pushes a self-signed certificate to a firewall, configures it as the forward-trust-certificate and creates a decryption policy and profile.  It also creates a custom URL category for the *.eicar.org website and enables high-risk and this custom category for decryption.  This skillet is meant mostly for POC or demonstration purposes.  Production environments are likely to leverage an internal PKI environment to perform decryption instead of using a self-signed certificate.
 
@@ -18,8 +18,6 @@ To use the skillet, select the VSYS (default vsys1) and deploy to the firewall. 
 •	Gambling
 
 •	Hacking
-
-•	High-Risk
 
 •	Malware
 
